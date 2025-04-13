@@ -16,8 +16,6 @@ It is a foundation for building systems that can not only **simulate the now**, 
 - ✅ Includes **test cases** for reproducibility
 
 ---
-
-## 📁 Project Structure
 <details>
 <summary>📁 <strong>Project Structure</strong></summary>
 
