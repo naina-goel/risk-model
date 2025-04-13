@@ -1,18 +1,15 @@
 """
 data_loader.py
 
-This module provides a utility function to fetch real financial market data 
-using the Yahoo Finance API via the `yfinance` library. It is used in the 
-QuontX-inspired risk modeling pipeline to replace or supplement simulated data 
-with actual historical market prices.
+This module provides a utility function to fetch real financial market data using the Yahoo Finance API via the `yfinance` library. It is used in the 
+QuontX-inspired risk modeling pipeline to replace or supplement simulated data with actual historical market prices.
 
 The retrieved dataset includes:
 - Ticker-based market close prices
 - Date-indexed time series
 - Cleaned and renamed to match pipeline expectations ('Market_Price')
 
-Use this script independently to download and store real market data for 
-further analysis or testing.
+Use this script independently to download and store real market data for further analysis or testing.
 
 Example usage:
     python data_loader.py
