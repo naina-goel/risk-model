@@ -4,7 +4,6 @@ This project is a modular and extensible simulation engine designed to replicate
 
 It is a foundation for building systems that can not only **simulate the now**, but **predict the next**—helping decision-makers act with foresight.
 
----
 
 ## ✨ Features
 
@@ -15,7 +14,6 @@ It is a foundation for building systems that can not only **simulate the now**, 
 - ✅ Automatically **generates risk plots**
 - ✅ Includes **test cases** for reproducibility
 
----
 ## 📁 Project Structure
 
 ```plaintext
@@ -35,8 +33,7 @@ Risk-Model/
 ├── main.py                   # Main pipeline entry point
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## ⚙️ Installation & Usage
 
@@ -44,21 +41,23 @@ Risk-Model/
 
 ```bash
 pip install -r requirements.txt
+```
 
-🚀 2. Run the Risk Modeling System
+### 🚀 2. Run the Risk Modeling System
 
+```bash
 python main.py
-
+```
 By default, this runs a simulated pipeline. You can also drop in real data (data/real_market_data.csv), and the system will auto-detect and use it.
 
 
-🧪 3. Run a Test Case
+### 🧪 3. Run a Test Case
 
+```bash
 python tests/test_real_data_pipeline.py
+```
 
-⸻
-
-📊 Output
+## 📊 Output
 
 Running the model will generate: 
 real_risk_model_output.png
@@ -70,28 +69,20 @@ This includes:
 
 Optionally, you can just go ahead and export the full simulation as a CSV for further analysis or reporting.
 
-⸻
-
-💡 Inspired by QuontX
+## 💡 Inspired by QuontX
 
 QuontX envisions technology that transcends traditional AI by deeply understanding and simulating the complex interactions in our world—social, economic, and behavioral.
 
 This project is a first step toward building such a living model of reality, where we can test assumptions, forecast futures, and make smarter, systemic decisions.
 
-⸻
-
-🤝 Contribute
+## 🤝 Contribute
 
 Have ideas to make it smarter? Want to add NLP-driven sentiment, real policy feeds, or AI forecasting? Let’s collaborate.
 	•	Fork the repo
 	•	Submit a pull request
 	•	Or open an issue to start a conversation
 
-⸻
-
 Built with ❤️ and systems thinking by Naina Goel
-
----
 
 Let me know if you'd like me to:
 - Add a sample output image to embed directly in the README
