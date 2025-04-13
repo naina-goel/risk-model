@@ -1,5 +1,21 @@
-# data_generator.py
+"""
+data_generator.py
 
+This module simulates synthetic time-series data to emulate the dynamics of financial markets,
+societal sentiment, and policy interventions. It is used for testing and benchmarking the
+risk modeling pipeline inspired by QuontX’s vision of modeling real-world complexity.
+
+Generated features include:
+- Simulated market prices (random walk)
+- Sentiment scores (noisy sine wave)
+- Binary policy shock events (randomly injected)
+
+Used as a source for synthetic inputs to evaluate and visualize the risk scoring system.
+"""
+
+# -------------------------------
+# Import Required Libraries
+# -------------------------------
 import numpy as np
 import pandas as pd
 import random
