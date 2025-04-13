@@ -1,7 +1,8 @@
 """
 visualizer.py
 
-This module provides visualization utilities to explore the relationships between financial data, societal sentiment, and computed risk scores. It is used to generate multi-panel plots for model evaluation and presentation.
+This module provides visualization utilities to explore the relationships between financial data, 
+societal sentiment, and computed risk scores. It is used to generate multi-panel plots for model evaluation and presentation.
 
 The visual output includes:
 1. 📈 Market Price over time
