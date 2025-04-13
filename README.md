@@ -19,23 +19,25 @@ It is a foundation for building systems that can not only **simulate the now**, 
 <details>
 <summary>📁 <strong>Project Structure</strong></summary>
 
+```plaintext
 Risk-Model/
-├── core/                         # Model logic
+├── core/                      # Model logic
 │   ├── data_generator.py
 │   ├── data_loader.py
 │   ├── risk_model.py
 │   └── visualizer.py
-├── data/                         # Real or simulated data files
+├── data/                      # Real or simulated data files
 │   └── real_market_data.csv
-├── outputs/                      # Generated plots
+├── outputs/                   # Generated plots
 │   └── real_risk_model_output.png
-├── tests/                        # All test cases
+├── tests/                     # All test cases
 │   ├── test_model.py
 │   └── test_real_data_pipeline.py
-├── main.py                       # Main pipeline entry point
+├── main.py                   # Main pipeline entry point
 ├── requirements.txt
 └── README.md
 </details>
+```
 
 ---
 
