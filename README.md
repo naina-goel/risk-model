@@ -18,6 +18,9 @@ It is a foundation for building systems that can not only **simulate the now**, 
 ---
 
 ## 📁 Project Structure
+<details>
+<summary>📁 <strong>Project Structure</strong></summary>
+
 Risk-Model/
 ├── core/                         # Model logic
 │   ├── data_generator.py
@@ -34,6 +37,8 @@ Risk-Model/
 ├── main.py                       # Main pipeline entry point
 ├── requirements.txt
 └── README.md
+</details>
+
 ---
 
 ## ⚙️ Installation & Usage
@@ -66,7 +71,7 @@ This includes:
 	•	💬 Sentiment score overlayed with policy shocks
 	•	🧠 Computed dynamic Risk Score
 
-Optionally, you can export the full simulation as a CSV for further analysis or reporting.
+Optionally, you can just go ahead and export the full simulation as a CSV for further analysis or reporting.
 
 ⸻
 
