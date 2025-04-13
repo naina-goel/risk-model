@@ -1,5 +1,26 @@
-# test_model.py
+"""
+test_model.py
 
+This script provides a basic unit test to validate the functionality of the QuontX-inspired risk modeling system. 
+It simulates sentiment and policy inputs on top of real market data and ensures that the computed `Risk_Score` meets 
+expected structural and numeric properties.
+
+Key assertions:
+- ✅ The 'Risk_Score' column is generated
+- ✅ Values are numeric and not entirely null
+- ✅ Pipeline does not raise exceptions with real data
+
+This test is useful for:
+- Quick validation of the core model logic
+- Ensuring changes to `risk_model.py` don’t silently break outputs
+- CI/CD pipeline checks (if integrated)
+
+Run as a standalone script or integrate into automated test runners.
+"""
+
+# -------------------------------
+# Import Required Libraries
+# -------------------------------
 import pandas as pd
 import numpy as np
 from core.risk_model import compute_risk_score
