@@ -16,8 +16,7 @@ It is a foundation for building systems that can not only **simulate the now**, 
 - ✅ Includes **test cases** for reproducibility
 
 ---
-<details>
-<summary>📁 <strong>Project Structure</strong></summary>
+## 📁 Project Structure
 
 ```plaintext
 Risk-Model/
@@ -36,8 +35,6 @@ Risk-Model/
 ├── main.py                   # Main pipeline entry point
 ├── requirements.txt
 └── README.md
-</details>
-```
 
 ---
 
