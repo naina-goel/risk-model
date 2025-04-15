@@ -1,6 +1,6 @@
-# 🧠 QuontX-Inspired Societal-Financial Risk Modeling System
+# 🧠 Societal-Financial Dynamics Risk Scoring System
 
-This project is a modular and extensible simulation engine designed to replicate how financial markets interact with societal behavior and policy dynamics. Inspired by QuontX’s mission to build a “virtual replica of reality,” this model blends time-series financial data, societal sentiment, and policy shock events to generate a dynamic risk score.
+This project is a modular and extensible simulation engine that models the interplay between financial markets, societal sentiment, and policy dynamics. By blending time-series signals across these domains, it generates a dynamic risk score to capture systemic behavior in complex environments.
 
 It is a foundation for building systems that can not only **simulate the now**, but **predict the next**—helping decision-makers act with foresight.
 
@@ -69,9 +69,9 @@ This includes:
 
 Optionally, you can just go ahead and export the full simulation as a CSV for further analysis or reporting.
 
-## 💡 Inspired by QuontX
+## 💡 Inspired by next-generation approaches to systemic modeling
 
-QuontX envisions technology that transcends traditional AI by deeply understanding and simulating the complex interactions in our world—social, economic, and behavioral.
+The goal is to transcend static AI predictions by developing models that reflect the dynamic, interdependent nature of our world—socially, economically, and behaviorally.
 
 This project is a first step toward building such a living model of reality, where we can test assumptions, forecast futures, and make smarter, systemic decisions.
 
