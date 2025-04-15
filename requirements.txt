@@ -1,5 +1,5 @@
 # ============================================================
-# QuontX-Inspired Risk Modeling System 🧠📈
+# Societal-Financial Risk Simulation Engine 🧠📈
 # ------------------------------------------------------------
 # This project simulates and analyzes complex societal-financial
 # systems to compute dynamic risk scores based on real or 
