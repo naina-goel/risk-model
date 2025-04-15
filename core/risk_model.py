@@ -6,7 +6,8 @@ This module defines the core algorithm used to compute a dynamic risk score base
 - Societal sentiment volatility
 - Sudden policy shock events
 
-It is a central component of the QuontX-inspired simulation system, translating quantitative signals into a composite Risk_Score that reflects systemic uncertainty.
+It serves as a core component of the simulation framework, translating multi-domain quantitative 
+signals into a composite Risk_Score that captures systemic uncertainty.
 
 The resulting `Risk_Score` column can be used for:
 - Scenario modeling
