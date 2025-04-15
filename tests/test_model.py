@@ -1,9 +1,9 @@
 """
 test_model.py
 
-This script provides a basic unit test to validate the functionality of the QuontX-inspired risk modeling system. 
-It simulates sentiment and policy inputs on top of real market data and ensures that the computed `Risk_Score` meets 
-expected structural and numeric properties.
+This script provides a basic unit test to validate the functionality of the risk modeling system. 
+It overlays synthetic sentiment and policy signals on real market data and verifies that the resulting 
+Risk_Score adheres to expected structural and numerical integrity.
 
 Key assertions:
 - ✅ The 'Risk_Score' column is generated
