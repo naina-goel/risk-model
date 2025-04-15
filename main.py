@@ -1,9 +1,9 @@
 """
 main.py
 
-A primary entry point for running the QuontX-inspired societal-financial 
-risk modeling pipeline. This script simulates input data and runs the full 
-process of computing and visualizing dynamic risk scores.
+A primary entry point for executing the societal-financial risk modeling pipeline. 
+This script simulates input signals and orchestrates the full process of computing and 
+visualizing dynamic risk scores based on market, sentiment, and policy interactions.
 
 Workflow Overview:
 1. 📊 Simulate financial and societal data (Market_Price, Sentiment_Score, Policy_Shock)
